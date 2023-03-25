@@ -1,0 +1,36 @@
+#wp-admin-plugin-page-root {
+  padding: 20px 20px 20px 0;
+}
+
+.react-wp-admin * {
+  box-sizing: border-box;
+}
+.react-wp-admin {
+  border: 1px solid #ddd;
+}
+
+.react-wp-admin:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.react-wp-admin > div {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  height: 138px;
+}
+
+.react-wp-admin > div:first-child {
+  border-right: 1px solid #ddd;
+}
+
+.react-wp-admin > div > div:first-child {
+  margin-bottom: 10px;
+}
+
+.react-wp-admin > div button {
+  margin-bottom: 6px;
+}

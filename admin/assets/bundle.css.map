@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../react/src/styles/styles.css"],
+  "sourcesContent": ["#wp-admin-plugin-page-root {\n  padding: 20px 20px 20px 0;\n}\n\n.react-wp-admin * {\n  box-sizing: border-box;\n}\n.react-wp-admin {\n  border: 1px solid #ddd;\n}\n\n.react-wp-admin:after {\n  content: '';\n  display: block;\n  clear: both;\n}\n\n.react-wp-admin > div {\n  float: left;\n  width: 50%;\n  text-align: center;\n  padding: 30px;\n  height: 138px;\n}\n\n.react-wp-admin > div:first-child {\n  border-right: 1px solid #ddd;\n}\n\n.react-wp-admin > div > div:first-child {\n  margin-bottom: 10px;\n}\n\n.react-wp-admin > div button {\n  margin-bottom: 6px;\n}"],
+  "mappings": "AAAA,oDAIA,mBACE,sBAEF,iBACE,sBAGF,uBACE,WACA,cACA,WAGF,qBACE,WACA,UACA,kBApBF,aAsBE,aAGF,iCACE,4BAGF,qCACE,mBAGF,4BACE",
+  "names": []
+}
